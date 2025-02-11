@@ -22,7 +22,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
         let picker = UIImagePickerController()
         picker.delegate = self
         
-        let alert = UIAlertController(title: "Info", message: "Ambil Gambar", preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: "Info", message: "Ambil Gambar!", preferredStyle: .actionSheet)
         
         let btnCamera = UIAlertAction(title: "Camera", style: .default) { (UIAlertAction) in
             if UIImagePickerController.isSourceTypeAvailable(.camera){
